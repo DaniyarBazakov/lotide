@@ -21,7 +21,7 @@ const eqArrays = function(arr1, arr2) {
 
 const assertArraysEqual = function(arr1, arr2) {
   let equal = eqArrays(arr1, arr2);
-  if (equal === false) {
+  if (!equal) {
     console.log(`${arr1} is not equal to ${arr2}`);
   } else {
     console.log(`${arr1} is equal to ${arr2}`);
