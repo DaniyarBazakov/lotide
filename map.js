@@ -28,9 +28,9 @@ const eqArrays = function(arr1, arr2) {
 const assertArraysEqual = function(arr1, arr2) {
   let equal = eqArrays(arr1, arr2);
   if (equal === false) {
-    console.log(`${arr1} is not equal to ${arr2}`);
+    console.log(`\u{1F64C} Assertion Passed: ${arr1} === ${arr2}`);
   } else {
-    console.log(`${arr1} is equal to ${arr2}`);
+    console.log(`\u{1F62A} Assertion Failed: ${arr1} !== ${arr2}`);
   }
   
 };
@@ -38,3 +38,4 @@ const assertArraysEqual = function(arr1, arr2) {
 assertArraysEqual(map(["hello", "bye"], (word) => word[0]), ["h", "b"]);
 assertArraysEqual(map([], (word) => word[0]), []);
 assertArraysEqual(map(["hello", "ciao", "Required"], (word) => word[0]), ["h", "c", "R"]);
+
