@@ -8,12 +8,12 @@ const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValues');
 const flatten = require('./flatten');
 const letterPositions = require('./letterPositions');
-const loopyLighthouse = require('./loopylighthouse2');
-const map = require('./map');
-const toPigLatin = require('./pig-latin');
-const arrWords = require('./reverse');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
+const assertArraysEqual = require('./assertArraysEqual');
+const assertEqual = require('./assertEqual');
+const assertObjectsEqual = require('./assertObjectsEqual');
+const eqArrays = require('./eqArrays');
 
 module.exports = {
   head:   head,
@@ -26,10 +26,10 @@ module.exports = {
   findKeyByValue: findKeyByValue,
   flatten: flatten,
   letterPositions: letterPositions,
-  loopyLighthouse: loopyLighthouse,
-  map: map,
-  toPigLatin: toPigLatin,
-  arrWords: arrWords,
   takeUntil: takeUntil,
   without: without,
+  assertArraysEqual: assertArraysEqual,
+  assertEqual: assertEqual,
+  assertObjectsEqual: assertObjectsEqual,
+  eqArrays: eqArrays,
 };
