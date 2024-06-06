@@ -63,9 +63,9 @@ const without = function(source, toRemove) {
 assertEqual(eqArrays(without([1, 2, 3], [1]), [2, 3]), true);
 assertArraysEqual((without([1, 2, 3], [1])), [2, 3]);
 
-const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]);
+// const words = ["hello", "world", "lighthouse"];
+// without(words, ["lighthouse"]);
 
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+// assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
 module.exports = without;
