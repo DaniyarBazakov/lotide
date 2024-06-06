@@ -1,17 +1,31 @@
 const tail = require("../tail");
-const assertEqual = require("../assertEqual");
+const assert = require('chai').assert;
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result.length, 2);
-assertEqual(result[0], "Lighthouse");
-assertEqual(result[1], "Labs");
 
 const emptyArray = tail(["Hello"]);
-assertEqual(emptyArray.length, 0);
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words);
-assertEqual(words.length, 3);
+const words = tail(["Yo Yo", "Lighthouse", "Labs"]);
 
 const emptyInput = tail([]);
-assertEqual(emptyInput.length, 0);
+
+describe("#tail", () => {
+  it("Should return 2", () => {
+    assert.strictEqual(result.length, 2);
+  });
+  it("Should return 'Lighthouse'", () => {
+    assert.strictEqual(result[0], "Lighthouse"); 
+  });
+  it("Should return 'Labs'", () => {
+    assert.strictEqual(result[1], "Labs"); 
+  });
+  it("Should return 0", () => {
+    assert.strictEqual(emptyArray.length, 0); 
+  });
+  it("Should return 2", () => {
+    assert.strictEqual(words.length, 2); 
+  });
+  it("Should return 0", () => {
+    assert.strictEqual(emptyInput.length, 0); 
+  });
+});
