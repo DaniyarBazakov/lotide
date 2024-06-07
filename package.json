@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@daniyarbazakov/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "JavaScript utility library",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/DaniyarBazakov/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name": "Daniyar Bazakov",
+    "email": "bazakovd@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DaniyarBazakov/lotide/issues"
