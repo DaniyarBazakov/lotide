@@ -1,5 +1,3 @@
-// const assertArraysEqual = require("./assertArraysEqual");
-
 const middle = function(arr) {
   const middleIndex = Math.floor(arr.length / 2);
 
@@ -11,8 +9,5 @@ const middle = function(arr) {
     return [arr[middleIndex]];
   }
 };
-
-
-
 
 module.exports = middle;

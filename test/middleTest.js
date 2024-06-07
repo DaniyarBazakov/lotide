@@ -6,9 +6,9 @@ describe("#middle", () => {
     assert.deepEqual(middle([1]), []);
   });
   it("Should return []", () => {
-    assert.deepEqual(middle([1, 2]), []); 
+    assert.deepEqual(middle([1, 2]), []);
   });
   it("Should return [2]", () => {
-    assert.deepEqual(middle([1, 2, 3]), [2]); 
+    assert.deepEqual(middle([1, 2, 3]), [2]);
   });
 });

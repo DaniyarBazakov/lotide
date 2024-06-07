@@ -28,6 +28,6 @@ describe("#findKey", () => {
     assert.strictEqual(result, "noma");
   });
   it("returns 'Mercedes'", () => {
-    assert.strictEqual(result1, "Mercedes"); 
+    assert.strictEqual(result1, "Mercedes");
   });
 });

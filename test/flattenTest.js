@@ -7,9 +7,9 @@ describe("#flatten", () => {
     assert.deepEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
   });
   it("Should return [1, 2, 3, 4] for [1, [2, 3], [4]]", () => {
-    assert.deepEqual(flatten([1, [2, 3], [4]]), [1, 2, 3, 4]); 
+    assert.deepEqual(flatten([1, [2, 3], [4]]), [1, 2, 3, 4]);
   });
   it("Should return [1, 2, 3, 4, 5, 6] for [1, 2, [3, 4], 5, [6]]", () => {
-    assert.deepEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]); 
+    assert.deepEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
   });
 });

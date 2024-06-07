@@ -12,6 +12,6 @@ describe("findKeyByValue", () => {
     assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
   });
   it("returns 'drama' for findKeyByValue(bestTVShowsByGenre, 'Brooklyn Nine-Nine')", () => {
-    assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "Brooklyn Nine-Nine"), "comedy"); 
+    assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "Brooklyn Nine-Nine"), "comedy");
   });
 });

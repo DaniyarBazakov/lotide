@@ -14,18 +14,18 @@ describe("#tail", () => {
     assert.strictEqual(result.length, 2);
   });
   it("Should return 'Lighthouse'", () => {
-    assert.strictEqual(result[0], "Lighthouse"); 
+    assert.strictEqual(result[0], "Lighthouse");
   });
   it("Should return 'Labs'", () => {
-    assert.strictEqual(result[1], "Labs"); 
+    assert.strictEqual(result[1], "Labs");
   });
   it("Should return 0", () => {
-    assert.strictEqual(emptyArray.length, 0); 
+    assert.strictEqual(emptyArray.length, 0);
   });
   it("Should return 2", () => {
-    assert.strictEqual(words.length, 2); 
+    assert.strictEqual(words.length, 2);
   });
   it("Should return 0", () => {
-    assert.strictEqual(emptyInput.length, 0); 
+    assert.strictEqual(emptyInput.length, 0);
   });
 });

@@ -25,13 +25,13 @@ describe("#countOnly", () => {
     assert.strictEqual(result1["Jason"], 1);
   });
   it("returns undefined for result1['Karima']", () => {
-    assert.strictEqual(result1["Karima"], undefined); 
+    assert.strictEqual(result1["Karima"], undefined);
   });
   it("returns 2 for result1['Fang']", () => {
-    assert.strictEqual(result1["Fang"], 2); 
+    assert.strictEqual(result1["Fang"], 2);
   });
   it("returns undefined for result1['Agouhanna']", () => {
-    assert.strictEqual(result1["Agouhanna"], undefined); 
+    assert.strictEqual(result1["Agouhanna"], undefined);
   });
 });
 
